@@ -8,6 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class Register {
   
+	
   @RequestMapping("/")
   public String start() {
     return "input.html";
